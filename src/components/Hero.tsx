@@ -10,8 +10,14 @@ export default function Hero() {
 						Explore our curated collection of jewelry, each piece crafted to
 						perfection. Experience luxury that lasts.
 					</h2>
-					<button></button>
-					<button></button>
+					<div className='flex gap-12 mt-8'>
+						<button className='uppercase text-2xl border-2 w-1/2 h-[7vh]'>
+							Shop now
+						</button>
+						<button className='uppercase text-2xl border-2 w-1/2 h-[7vh]'>
+							Contact us
+						</button>
+					</div>
 				</div>
 			</div>
 			<div className='w-1/2 h-full'>
